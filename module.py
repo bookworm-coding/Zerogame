@@ -10,7 +10,7 @@ class Zero(DataFrame):
         for i in range(2 * self.n + 1):
             self.l.append([])
         self.zero([])
-        super().__init__(data=self.dataframe(), columns=["맞는 경우들"])
+        super().__init__(data=self.dataframe())
 
     def __str__(self):
         s = ""
