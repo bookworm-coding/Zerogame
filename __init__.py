@@ -11,4 +11,4 @@ if __name__ == "__main__":
     elif select == "P":
         print(Zero(number))
     else:
-        print("잘못된 입력입니다.")
+        print("잘못된 입력입니다. 다시 실행해주세요.")
